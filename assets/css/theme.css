@@ -65,7 +65,7 @@ body {
     font: 13px/1.231 arial, helvetica, clean, sans-serif;
     *font: x-small;
     overflow: hidden !important;
-    /* width: 2000px; */
+    /* width: 1500px; */
     /* 追加 */
     max-width: 100%;
     height: auto;
@@ -10386,9 +10386,29 @@ body {
     min-width: 1140px
 }
 
-.container {
-    width: 1140px
-}
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* 変更 */
+/* .container {
+    width: 1140px 
+} */
 
 .l-footer__tel i,
 a {
@@ -10630,6 +10650,13 @@ p {
 }
 
 .l-footer {
+    width: 100%;
+    color: #fff;
+    background: #1c2649;
+    padding: 90px 0 65px
+}
+
+.l-footer-member {
     width: 100%;
     color: #fff;
     background: #1c2649;
@@ -11246,10 +11273,56 @@ input[name=submitSubmit] {
     }
 }
 
+/* 追加 */
+/* 追加 */
+/* 追加 */
+/* 追加 */
+/* 追加 */
+/* 追加 */
+/* 追加 */
+
+/* @keyframes slide {
+    0% {
+        background-image: url('img/header/society3.jpg');
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+        background-image: url('../../img/header/society4.jpg');
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        background-image: url('../../img/header/society3.jpg');
+        opacity: 0;
+    }
+} */
+
 .p-kv {
     height: 100vh;
     min-height: 920px;
-    background-image: url(../../img/header/society3.jpg);
+    background-image: url(../../img/main/kv_bg@2x.jpg);
+    /* background-image: url('../../img/header/society3.jpg'); */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation: slide 10s ease 0s infinite normal;
+    -webkit-animation: slide 10s ease 0s infinite normal; */
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
@@ -12745,4 +12818,143 @@ input[name=submitSubmit] {
     clear: both;
     height: 0;
     visibility: hidden
+}
+
+
+
+/* 追加 */
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+
+.memberbody {
+    background-color: #def3f7;
+    text-align: center;
+    margin: 0;
+}
+
+.member-sub {
+    border-top: 3px solid #0000AA;
+    padding-top: 30px;
+    font-family: "Comic Sans MS";
+    color: #0000AA;
+    font-size: 15px;
+}
+
+.member-main {
+    font-family: "MS PGothic";
+    color: #000000;
+    font-size: 45px;
+}
+
+.member-image {
+    width: 300px;
+    height: 300px;
+}
+
+.member-text-center {
+    text-align: left !important;
+
+}
+
+.member-flexbox {
+    display: flex;
+    margin: 2% 5% 2% 5%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    max-width: 1350px;
+    text-align: center;
+
+}
+
+.member-box1 {
+    width: 100%;
+    margin: auto 60% auto 0;
+}
+
+.playernumber {
+    text-align: left;
+    font-size: 35px;
+    font-family: "Comic Sans MS";
+    margin-top: 10px;
+}
+
+.member-name {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 30px;
+    margin: 0 0 10px 0
+}
+
+.member-box1 img {
+    border-radius: 10px;
+}
+
+.member-box2 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    width: 100%;
+    /* margin: auto 5rem; */
+    margin: 2% 50px 5% -650px;
+}
+
+@media screen and (max-width: 850px) {
+    .member-flexbox {
+        display: block;
+    }
+
+    .member-flexbox .member-box1 {
+        width: 100%;
+        margin: auto;
+        padding: 5% 0 3% 0;
+    }
+
+    .member-flexbox .member-box2 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 5% 3% 5%;
+    }
+}
+
+.kanyuu {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 30px;
+    line-height: 0.8em;
+}
+
+@media screen and (max-width: 1150px) {
+    .member-flexbox .member-box2 {
+        font-size: 13px
+    }
+}
+
+@media screen and (min-width:851px) and (max-width:1050px) {
+    .member-flexbox .member-box1 {
+        width: 100%;
+        margin: auto 80% auto 0;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+
+    .member-flexbox {
+        display: flex;
+        margin: 2% auto 2% auto;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        text-align: center !important;
+    }
+
+    .member-flexbox .member-box1 {
+        width: 100%;
+        margin: auto 40% auto 0;
+    }
+
+    .member-flexbox .member-box1 img {
+        border-radius: 10px;
+    }
+
+    .member-flexbox .member-box2 {
+        width: 100%;
+        /* margin: auto 5rem; */
+        margin: 2% 50px 2% -600px;
+        font-size: 17px;
+    }
 }
