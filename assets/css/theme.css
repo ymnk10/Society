@@ -62,7 +62,8 @@ body {
     line-height: 1;
     color: #000;
     font: 13px/1.231 arial, helvetica, clean, sans-serif;
-    *font: x-small
+    *font: x-small;
+    overflow: hidden !important;
 }
 
 .top-image {
@@ -572,7 +573,7 @@ tt {
     color: #fff
 }
 
-.fa-500px:before {
+/* .fa-500px:before {
     content: "\f26e"
 }
 
@@ -8454,7 +8455,7 @@ tt {
 
 .fa-zhihu:before {
     content: "\f63f"
-}
+} */
 
 .sr-only {
     border: 0;
@@ -11253,7 +11254,7 @@ input[name=submitSubmit] {
     content: "";
     height: 100%;
     opacity: 1;
-    background: -webkit-gradient(linear, left top, left bottom, from(#5999e8), to(#def3f7));
+    /* background: -webkit-gradient(linear, left top, left bottom, from(#5999e8), to(#def3f7)); */
     background: -webkit-linear-gradient(top, #5999e8, #def3f7);
     background: linear-gradient(180deg, #5999e8, #def3f7);
     -webkit-transition: all 1.2s ease;
