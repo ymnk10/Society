@@ -12168,15 +12168,9 @@ input[name=submitSubmit] {
 
 @media only screen and (max-width:767px) {
     .p-kv {
-        /* background-size: cover;
-        background-attachment: scroll;
-        background-image: url(../../img/main/kv_bg_sp.jpg);
-        min-height: auto;
-        height: 100vh;
-        position: relative; */
         height: 100vh;
         min-height: 920px;
-        background-image: url(../../img/main/kv_bg@2x.jpg);
+        background-image: url(../../img/main/kv_bg_sp.jpg);
         background-position: top center;
         background-size: cover;
         background-attachment: fixed;
