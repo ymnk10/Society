@@ -19,6 +19,7 @@
     font-feature-settings: "palt";
     letter-spacing: .08rem;
     min-width: 1140px;
+
 }
 
 p-information__map {
@@ -64,7 +65,16 @@ body {
     font: 13px/1.231 arial, helvetica, clean, sans-serif;
     *font: x-small;
     overflow: hidden !important;
+    /* width: 2000px; */
+    /* 追加 */
+    max-width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 
 .top-image {
     width: 200px;
@@ -9435,6 +9445,9 @@ tt {
 }
 
 @media (min-width:768px) {
+
+
+
     .container {
         width: 768px
     }
@@ -12167,6 +12180,12 @@ input[name=submitSubmit] {
 }
 
 @media only screen and (max-width:767px) {
+
+    /* 追加部分 */
+    #information {
+        display: none
+    }
+
     .p-kv {
         height: 100vh;
         min-height: 920px;
