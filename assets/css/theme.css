@@ -11236,7 +11236,7 @@ input[name=submitSubmit] {
 .p-kv {
     height: 100vh;
     min-height: 920px;
-    background-image: url(../../img/main/kv_bg@2x.jpg);
+    background-image: url(../../img/header/society3.jpg);
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
@@ -12170,7 +12170,7 @@ input[name=submitSubmit] {
     .p-kv {
         height: 100vh;
         min-height: 920px;
-        background-image: url(../../img/main/kv_bg_sp.jpg);
+        background-image: url(../../img/header/society3.png);
         background-position: top center;
         background-size: cover;
         background-attachment: fixed;
