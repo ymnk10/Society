@@ -13037,3 +13037,15 @@ input[name=submitSubmit] {
         font-size: 17px;
     }
 }
+
+
+
+.information-flexbox {
+    display: inline-block;
+    margin: 2% 5% 2% 5%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5%;
+    font-size: 30px;
+}
