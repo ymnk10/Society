@@ -12958,3 +12958,82 @@ input[name=submitSubmit] {
         font-size: 17px;
     }
 }
+
+
+
+
+.news-image {
+    width: 300px;
+    height: 300px;
+}
+
+.news-flexbox {
+    display: inline-block;
+    margin: 2% 1% 2% 1%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+
+}
+
+.news-box1 {
+    width: 100%;
+    /* margin: auto 60% auto 0; */
+}
+
+.newsdate {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Comic Sans MS";
+    margin-top: 10px;
+}
+
+.news-title {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 20px;
+    margin: 0 0 10px 0
+}
+
+.news-box1 img {
+    border-radius: 10px;
+    margin: 5% 10% auto 10%;
+}
+
+.news-box2 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin: 0 3% 20px 3%;
+    text-align: center;
+}
+
+.news-click {
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 450px) {
+
+    .news-image {
+        width: 270px;
+        height: 270px;
+    }
+
+    .news-flexbox {
+        max-width: 350px;
+        margin: 2% auto 2% auto;
+    }
+
+    .news-image {
+        border-radius: 10px;
+        margin: auto;
+        text-align: center !important;
+    }
+
+    .newsdate {
+        font-size: 25px;
+    }
+
+    .news-title {
+        font-size: 17px;
+    }
+}
